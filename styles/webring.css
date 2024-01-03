@@ -1,0 +1,73 @@
+body {
+    background: url(../images/bg.gif);
+    color: #A020F0;
+    max-width: 726px;
+    padding:0 10px;
+    margin: 40px auto;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+pre{
+    color: #A020F0;
+    border: 1px solid #f020d8;
+    margin-top: auto;
+    background: #000000BF;
+    text-align: center;
+}
+
+nav {
+    border: 1px solid #f020d8;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    background: #000000BF;
+}
+
+a.nav {
+    color: #a020f0;
+    border-right: 1px solid #bbb;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 5px 45px;
+    margin-bottom: -5px;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+}
+a:last-child {
+    border-right: none;
+  }
+a.extras{
+    float: left;
+    padding: 5px;
+    margin-bottom: -5px;
+    text-decoration: none;
+    width: 31%;
+    text-align: center;
+    color: #a020f0;
+    border-right: 1px solid #bbb;
+}
+a.extras:last-child {
+    border-right: none;
+  }
+h2{
+    padding-top: 15px;
+    margin-top: auto;
+    background: #000000BF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.webringlist{
+    background: #000000BF;
+    border: 1px solid #f020d8;
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.banner{
+    width: 32%;
+}
